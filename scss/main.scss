@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+}
+@import url("../scss/_container.scss");
+@import "../blocks/header";
+%styles{
+    font-size: 100px;
+line-height: 130px;
+color: #0B0B0B;
+}
+.banner{
+    width: 1550px;
+    height: 865px;
+    margin-left: 50px;
+    background-image: url("../images/banerfont.png");
+    background-repeat: no-repeat;
+    display: flex;
+    .banner__header{
+        @extend %styles;
+        padding-top: 182px;
+        margin-left: 177px;
+    }
+    .banner__header2{
+        @extend %styles;
+        margin-top: 10px;
+        margin-left: 275px;
+    }
+    .banner__header3{
+        @extend %styles;
+        margin-top: 7px;
+        margin-left: 177px;
+        margin-bottom: 88px;
+    }
+    .link1{
+        padding: 18px 50px;
+        background-color: #0B0B0B;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 177px;
+    }
+    .link2{
+        padding: 17px 48px;
+        border: 2px solid black;
+        text-decoration: none;
+        color: #0B0B0B;
+        margin-left: 30px;
+    }
+}
+.h2{
+    margin-top: 130px;
+    margin-left: 228px;
+    font-size: 45px;
+line-height: 160%;
+}
+.images{
+    margin-top: 50px;
+    margin-left: 228px;
+}
+@import "../blocks/main";
+@import "../blocks/footer";

@@ -1,0 +1,19 @@
+.header{
+    min-width: 1500px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-left: 227px;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    margin-left: 815px;
+    gap: 40px;
+}
+.link-list{
+    text-decoration: none;
+    color: black;
+}
